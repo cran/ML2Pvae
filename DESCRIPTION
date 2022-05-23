@@ -1,7 +1,7 @@
 Package: ML2Pvae
 Type: Package
 Title: Variational Autoencoder Models for IRT Parameter Estimation
-Version: 1.0.0
+Version: 1.0.0.1
 Authors@R: c(
     person("Geoffrey", "Converse", email = "converseg@gmail.com", role = c("aut", "cre", "cph")),
     person("Suely", "Oliveira", email = "suely-oliveira@uiowa.edu", role = c("ctb", "ths")),
@@ -31,9 +31,9 @@ Config/reticulate: list( packages = list( list(package = "keras", pip =
         TRUE), list(package = "tensorflow", pip = TRUE), list(package =
         "tensorflow-probability", pip = TRUE) ) )
 NeedsCompilation: no
-Packaged: 2020-11-10 16:37:02 UTC; gconverse
+Packaged: 2022-05-23 07:38:42 UTC; hornik
 Author: Geoffrey Converse [aut, cre, cph],
   Suely Oliveira [ctb, ths],
   Mariana Curi [ctb]
 Repository: CRAN
-Date/Publication: 2020-11-16 09:10:12 UTC
+Date/Publication: 2022-05-23 08:02:16 UTC
